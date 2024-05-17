@@ -1,0 +1,173 @@
+* {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.menu {
+    border: 5px double #A52A2A;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header1 {
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 13px;
+    padding-left: 25px;
+}
+
+.menu_inner {
+
+    margin: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+.nav li a {
+    text-transform: uppercase;
+    color: azure;
+    text-decoration: none;
+    background-color: #A52A2A;
+    border-radius: 5px;
+    padding: 17px;
+    transition: transform 0.3s ease;
+}
+
+.nav li a:hover {
+    background-color: #F4A460;
+    transform: translateY(-5px);
+}
+
+.btn {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+.nav li {
+    padding-left: 55px;
+}
+
+.image1 {
+    padding-top: 35px;
+    padding-left: 355px;
+}
+
+.text1 {
+    font-size: 19px;
+    color: #A52A2A;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.basementborder1 {
+    margin: -30px auto 10px;
+    padding: 0;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #1f1209;
+    box-shadow: 0 20px 20px -20px #333;
+    width: 95%;
+}
+
+.basement1 {
+    background-color: #800000;
+    padding: 10px
+}
+
+.text2 {
+    margin: 25px;
+    color: #efc98f;
+}
+
+.cata1 {
+    margin-top: 75px;
+    background-color:Bisque;
+    border: double;
+    border-width: 5px;
+    border-color:#1f1209;
+    height: 100px;
+    display: flex;
+    list-style: none;
+}
+
+.cata11 {
+    margin: 0 auto;
+}
+
+.cata111 {
+    margin: 35px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.emptyspace1 {
+    height: 350px;
+}
+
+.block1 {
+    margin-top: 75px;
+    height: 500px;
+    border: double;
+    border-width: 5px;
+    border-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.descript1 {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.image3 {
+    margin-top: 10px;
+    margin-right: 100px;
+    
+}
+
+.image4 {
+    margin-top: 10px;
+    
+}
+
+.form1 {
+    width: 300px;
+    height: 400px;
+    border-radius: 50px;
+    margin-top: 100px;
+    margin-left: 550px;
+    border: 7px black solid;
+}
+
+.elements1 {
+    margin-left: 60px;
+}
+
+.button1 {
+    margin-left: 100px;
+    margin-top: 50px;
+}
